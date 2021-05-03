@@ -8,15 +8,7 @@ private String contact;
 private String salary;
 
 //getter & setter Method
-/*
- * public Employee() {
- * 
- * } public Employee(int id, String name,String email, String contact, String
- * salary ) {
- * 
- * this.id=id; this.name=name; this.email=email; this.contact=contact;
- * this.salary=salary; }
- */
+
 public int getId() {
 	return id;
 }
@@ -48,7 +40,5 @@ public String getSalary() {
 public void setSalary(String salary) {
 	this.salary = salary;
 }
-
-
 
 }
